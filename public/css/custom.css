@@ -1,0 +1,176 @@
+/* =================================
+   GADGET STORE - SOFT LAVENDER
+================================= */
+
+/* Background */
+body {
+    background-color: #f8f7fc !important;
+    color: #555570;
+}
+
+/* Sidebar */
+#accordionSidebar {
+    background: linear-gradient(180deg, #777bc0 0%, #686daf 100%) !important;
+}
+
+#accordionSidebar .sidebar-brand,
+#accordionSidebar .nav-link {
+    color: #fdfdff !important;
+}
+
+#accordionSidebar .nav-item .nav-link:hover {
+    background-color: rgba(255,255,255,0.12);
+    border-radius: 10px;
+}
+
+#accordionSidebar .nav-item.active .nav-link {
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+/* Background konten */
+#content-wrapper,
+#content {
+    background-color: #f8f7fc !important;
+}
+
+/* Navbar */
+.topbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(90, 90, 140, 0.05) !important;
+}
+
+/* Card */
+.card {
+    background: #ffffff !important;
+    border: 1px solid #f0eef8 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 3px 12px rgba(90, 90, 140, 0.07) !important;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(90, 90, 140, 0.10) !important;
+}
+
+/* Header card */
+.card-header {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #f4f2fa !important;
+    color: #73749b !important;
+}
+
+/* Judul halaman */
+.text-gray-800 {
+    color: #56567b !important;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #8889c9 !important;
+    border-color: #8889c9 !important;
+    border-radius: 8px !important;
+}
+
+.btn-primary:hover {
+    background-color: #7778b8 !important;
+    border-color: #7778b8 !important;
+}
+
+.btn-success {
+    background-color: #8acbb7 !important;
+    border-color: #8acbb7 !important;
+    border-radius: 8px !important;
+}
+
+.btn-warning {
+    background-color: #f5d4a4 !important;
+    border-color: #f5d4a4 !important;
+    color: #665335 !important;
+    border-radius: 8px !important;
+}
+
+.btn-danger {
+    border-radius: 8px !important;
+}
+
+/* Input */
+.form-control,
+.custom-select {
+    border: 1px solid #e9e6f4 !important;
+    border-radius: 8px !important;
+    background-color: #ffffff !important;
+}
+
+.form-control:focus,
+.custom-select:focus {
+    border-color: #b5b4df !important;
+    box-shadow: 0 0 0 3px rgba(181, 180, 223, 0.15) !important;
+}
+
+/* Table */
+.table {
+    color: #565670 !important;
+}
+
+.table thead th {
+    background-color: #f2f0fa !important;
+    color: #73749b !important;
+    border: none !important;
+}
+
+.table td {
+    border-color: #f1eff8 !important;
+}
+
+/* Badge */
+.badge-primary {
+    background-color: #e9e7fa !important;
+    color: #7778b8 !important;
+}
+
+.badge-success {
+    background-color: #e0f4ec !important;
+    color: #529b80 !important;
+}
+
+.badge-warning {
+    background-color: #fff2df !important;
+    color: #b78645 !important;
+}
+
+.badge-danger {
+    background-color: #ffe8ec !important;
+    color: #c7657a !important;
+}
+
+/* Pagination */
+.page-item.active .page-link {
+    background-color: #8889c9 !important;
+    border-color: #8889c9 !important;
+}
+
+.page-link {
+    color: #8889c9 !important;
+}
+
+/* Alert */
+.alert {
+    border: none !important;
+    border-radius: 12px !important;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff !important;
+}
+
+/* Scroll to top */
+.scroll-to-top {
+    background-color: #8889c9 !important;
+}
+
+/* Garis */
+hr {
+    border-color: #eeecf7 !important;
+}

@@ -28,7 +28,8 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()->intended(route('dashboard', absolute: false));
+        // Setelah login masuk ke dashboard Gadget Store
+        return redirect()->intended(route('dashboard'));
     }
 
     /**
@@ -42,6 +43,7 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        // Setelah logout kembali ke halaman login Breeze
+        return redirect()->route('login');
     }
 }
